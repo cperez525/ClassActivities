@@ -1,0 +1,49 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.storypart1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.25;
+}
+
+.storypart2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: 300;
+}
+
+.box {
+    position: relative;
+    height: 350px;
+    background: #eee;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 130%;
+}
+
+.box-1 {
+    position: absolute;
+    width: 50%;
+    background: #999;
+    right: -40px;
+    bottom: 0;
+}
+
+.box-stray {
+    position: fixed;
+    height: 150px;
+    width: 25%;
+    background: #eee;
+    top: 0;
+    left: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 130%;
+    text-align: center;
+}
+
